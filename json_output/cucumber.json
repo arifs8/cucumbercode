@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 29,
+        "name": "Successful Login With Valid Credentials",
+        "description": "",
+        "id": "login-action;successful-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9879583700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21676600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Title of login page",
+            "match": {
+              "location": "LoginStepDefination.title_of_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 580450500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click on \"arifsyed83@gmail.com\" and \"Syedarif@1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arifsyed83@gmail.com",
+                  "offset": 15
+                },
+                {
+                  "val": "Syedarif@1",
+                  "offset": 42
+                }
+              ],
+              "location": "LoginStepDefination.user_click_on_Username_and_Password_fields(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 144499400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Click on Login Button",
+            "match": {
+              "location": "LoginStepDefination.user_Click_on_Login_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5038201200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on Home Page1",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_Home_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 624464800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginStepDefination.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "C:/Users/arifs3/eclipse-workspace/FreeCrmBDDFrameworks/src/main/java/Features/login.feature"
+  }
+]
