@@ -2,7 +2,7 @@ Feature: Login Action
 
 
 
-# Without Example Keyword
+# Without out Example Keyword
 #Scenario: Successful Login With Valid Credentials
 #
 #Given User is on Login Page
@@ -14,8 +14,10 @@ Feature: Login Action
 
 
 
-# With Example keyword
-Scenario Outline: Successful Login With Valid Credentials
+
+	
+# Without Example Keyword
+Scenario Outline:: Successful Login With Valid Credentials
 
 Given User is on Login Page
 When Title of login page 
@@ -25,10 +27,9 @@ Then User is on Home Page1
 Then close the browser
 
 Examples:
-	| username | password |
-	|arifsyed83@gmail.com | Syedarif@1 |
-
-
+	|username|password |
+	|arifsyed83@gmail.com|Syedarif@1|
+	|reshma123|reshma@123|
 
 
 

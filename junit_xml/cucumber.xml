@@ -1,12 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.288876">
-    <testcase classname="Login Action" name="Successful Login With Valid Credentials" time="16.288876">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="116.33312">
+    <testcase classname="Free WebWorl Create Contact" name="Create a new Contact scenatrio" time="40.484911">
         <system-out>
             <![CDATA[Given User is on Login Page.................................................passed
 When Title of login page....................................................passed
 Then User click on "arifsyed83@gmail.com" and "Syedarif@1"..................passed
 Then User Click on Login Button.............................................passed
 Then User is on Home Page1..................................................passed
+Then user moves to new conatct page.........................................passed
+Then user enters "Sreshma" and "shaik" and "1arifreshma786@gmail.com" and "qqqq".passed
+Then close the browser......................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Free WebWorl Create Contact" name="Create a new Contact scenatrio 2" time="37.743361">
+        <system-out>
+            <![CDATA[Given User is on Login Page.................................................passed
+When Title of login page....................................................passed
+Then User click on "arifsyed83@gmail.com" and "Syedarif@1"..................passed
+Then User Click on Login Button.............................................passed
+Then User is on Home Page1..................................................passed
+Then user moves to new conatct page.........................................passed
+Then user enters "Afroz" and "shaik" and "afroz786@gmail.com" and "qqqq"....passed
+Then close the browser......................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Free WebWorl Create Contact" name="Create a new Contact scenatrio 3" time="38.104848">
+        <system-out>
+            <![CDATA[Given User is on Login Page.................................................passed
+When Title of login page....................................................passed
+Then User click on "arifsyed83@gmail.com" and "Syedarif@1"..................passed
+Then User Click on Login Button.............................................passed
+Then User is on Home Page1..................................................passed
+Then user moves to new conatct page.........................................passed
+Then user enters "Altaf" and "shaik" and "altaf786@gmail.com" and "qqqq"....passed
 Then close the browser......................................................passed
 ]]>
         </system-out>
